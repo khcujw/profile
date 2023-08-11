@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="최준원의 프로필">
+    <meta property="og:description" content="14살 대학생을 소개합니다!">
+    <meta property="og:image" content="jw.png">
+    <title>최준원의 프로필</title>
+    <style>
+        @font-face {
+            font-family: 'Giants-Bold';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'SUIT01';
+            font-weight: 100;
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Thin.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'SUIT04';
+            font-weight: 400;
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+        }
+
+        .wfont {
+            font-family: 'SUIT04';
+        }
+
+        body {
+            background-color: #2f3e38;
+            margin-top: 100px;
+        }
+
+        .myImage {
+            width: 322px;
+            height: 80px;
+
+            /*border-radius: 100%;
+            border: 2px solid white;*/
+
+            background-image: url('jw.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .myName {
+            color: white;
+            font-family: 'Giants-Bold';
+            font-size: 40px;
+
+            margin-top: 30px;
+            margin-bottom: 0;
+        }
+
+        .myAbout {
+            color: white;
+            font-size: 20px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+
+        .profile {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile>a {
+            width: 250px;
+            height: 50px;
+            background-color: white;
+            border-radius: 15px;
+            margin-bottom: 10px;
+
+            font-size: 15px;
+            font-weight: bold;
+            color: #2f3e38;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: transform 1.0s;
+        }
+
+        .profile>a:hover {
+            color: white;
+            background-color: #808985;
+
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body class="wfont">
+    <div class="profile">
+        <div class="myImage"></div>
+        <h1 class="myName">최준원</h1>
+        <p class="myAbout" style="font-family: 'SUIT01';">14세 대학생</p>
+
+        <a target="_blank" href="https://github.com/khcujw">GITHUB</a>
+        <a target="_blank" href="https://blog.naver.com/smart-brain">BLOG</a>
+        <a target="_blank" href="https://discord.gg/mxMm3SvQ">DISCORD</a>
+        <a target="_blank" href="https://dreamhack.io/users/28354">DREAMHACK</a>
+        <a target="_blank" href="https://jw2009.tistory.com/">TISTORY</a>
+    </div>
+</body>
+
+</html>
